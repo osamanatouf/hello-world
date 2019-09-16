@@ -1,0 +1,57 @@
+****************
+* Project Cache
+* Class CS321
+* Date september 4
+* Osama Natouf
+**************** 
+
+OVERVIEW:
+
+1-This project was to design full implementation for Cache by the use of LinkedList  
+2- Test the program depends on the text file provided by the instructor and result folde
+
+INCLUDED FILES:
+*Cahce.java Source File
+* Test.java (Driver class)
+*README- this File
+
+
+COMPILING AND RUNNING:
+
+The format to run the Test class on the command line is the following:
+
+$ Java Test 1 <Positive Integer cache size> <input textfile name>  
+OR
+$ Java Test 2 <1st-level Positive integer cache size> <2nd-level Positive Integer cache size> <input textfile name>
+
+
+Then The program will process the file and display the result when it is done.
+
+PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+
+A Cache is designed through the linked list which can have two structure either one-level or double level cache.
+ ONE of the most important concepts about the two level cache is Multive inclusion property. 
+This means that whenever we instantiate two level cache, the second level should be bigger than the first one,
+ and should always contains all the elements in 1st-level cache.
+
+
+The Cache some kind represents how the computer works. It will read data from the user or a file then search the cache and from this point we have two scenarios:
+1- the element is found: we increase the number of hits in the cache and then move element to the front of the Cache as it will have a high probability to be used soon.
+This will be done in both 1st and 2nd level cache
+2- if it was a miss, and we did not found the element: the program will remove the last element in the cache and add the new element to the front of the cache
+
+
+
+TESTING:
+
+This program was tested according to the provided Data from the instructor. I run the program against the file provided and it produced the same output.
+
+DISCUSSION:
+ 
+The main issue was to understand the logic of the Cache and how that will work. This problem was solved through the discussion that was done in class, 
+which made the writing the program not very bad. In addition I run into some syntax and small error while writing the program.
+
+EXTRA CREDIT:
+ 
+N/A
+
