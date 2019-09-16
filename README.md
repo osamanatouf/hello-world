@@ -1,3 +1,2 @@
 # hello-world
-Just another Repo
-I want to get internship
+My first website with git
